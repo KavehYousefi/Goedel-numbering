@@ -855,7 +855,7 @@
 ;;   [esolang2021goedelang]
 ;;   -> "https://esolangs.org/wiki/G%C3%B6delang"
 ;;       o Specification of the esoteric programming language
-;;         "GÃ¶delang", a "brainfuck" derivative based upon GÃ¶del numbers.
+;;         "Goedelang", a "brainfuck" derivative based upon Goedel numbers.
 ;;   
 ;;   [meyer2021goedel3]
 ;;   -> "https://www.jamesrmeyer.com/ffgit/GodelSimplified3.html"
@@ -1558,13 +1558,13 @@
 ;; Encodes the brainfuck "cat program"
 ;;   ,.[,.]
 ;; in any of the two version of the esoteric programming language
-;; "GÃ¶delang". Yields the resulting Goedel number
+;; "Goedelang". Yields the resulting Goedel number
 ;;   59250896327476337572570276385712371250000000000
 ;; 
-;; Please note the following excerpt from GÃ¶delang's instruction set:
+;; Please note the following excerpt from Goedelang's instruction set:
 ;; 
-;;   brainfuck command | GÃ¶delang 1/2 value
-;;   ------------------+-------------------
+;;   brainfuck command | Goedelang 1/2 value
+;;   ------------------+--------------------
 ;;    .                | 7
 ;;    ,                | 10
 ;;    [                | 13
@@ -1576,7 +1576,7 @@
 
 ;; Returns the list
 ;;   (10 7 13 10 7 14)
-;; which represents the "GÃ¶delang" 1 or 2 values associated with the
+;; which represents the "Goedelang" 1 or 2 values associated with the
 ;; brainfuck command sequence
 ;;   ,.[,.]
 ;; implementing an infinitely repeating "cat program".
